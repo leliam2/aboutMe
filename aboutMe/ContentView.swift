@@ -31,7 +31,7 @@ struct ContentView: View {
                         .aspectRatio(contentMode: .fit)
                         .cornerRadius(30)
                         .frame(width:450, height:275)
-                HStack {
+                HStack { //contains info text and rounded rectangle
       
                     Image("family")
                         .resizable(resizingMode: .stretch)
